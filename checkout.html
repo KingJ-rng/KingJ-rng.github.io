@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Access | Predictive Sales Engine</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #161b26;
+            --accent-color: #38bdf8;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 440px;
+            width: 90%;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-size: 1.75rem;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+        }
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--accent-color);
+            margin: 24px 0;
+        }
+        .instructions {
+            text-align: left;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 32px;
+            background: rgba(0,0,0,0.15);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .action-btn {
+            display: block;
+            background-color: var(--accent-color);
+            color: #000;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+        }
+        .action-btn:hover {
+            opacity: 0.9;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover {
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>Secure Dashboard Access</h2>
+        <p style="color: var(--text-muted); margin: 0;">Get your copy of the operational system</p>
+        
+        <!-- You can change the price currency/amount here depending on your final target -->
+        <div class="price-tag">R350</div>
+        
+        <div class="instructions">
+            <strong>What happens next:</strong><br>
+            1. Click the secure payment link below.<br>
+            2. After checkout, you will receive an instant redirect link.<br>
+            3. Duplicate the system directly into your Notion app.
+        </div>
+
+        <!-- Replace the '#' with your future payment checkout link -->
+        <a href="#" class="action-btn">Proceed to Secure Payment</a>
+    </div>
+    
+    <a href="index.html" class="back-link">← Return to main page</a>
+</div>
+
+</body>
+</html>
